@@ -1,0 +1,15 @@
+{
+  "name": "chatfuel",
+  "displayName": "Chatfuel",
+  "version": "0.1.0",
+  "description": "Manage your Chatfuel bots from Cursor: AI automations, knowledge base, comment auto-replies, chats and bot diagnostics through the Chatfuel MCP server. Sign in with your Chatfuel account, no token needed.",
+  "author": {
+    "name": "Chatfuel",
+    "email": "team@chatfuel.com"
+  },
+  "homepage": "https://mcp.chatfuel.com",
+  "repository": "https://github.com/chatfuel-lab/cursor-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["chatfuel", "chatbot", "mcp", "instagram", "facebook", "whatsapp", "ai-agent", "automation", "knowledge-base"],
+  "logo": "assets/logo.png"
+}
