@@ -17,9 +17,14 @@ Example prompts:
 - "Add an FAQ answer about delivery times to my store bot."
 - "Review yesterday's chats and tell me where the bot failed to answer."
 
+## Requirements
+
+- A Chatfuel account with at least one bot. Sign up at [panel.chatfuel.com](https://panel.chatfuel.com).
+- The AI agent answers customers only while the workspace has an active Chatfuel plan. Viewing and changing the setup works without one.
+
 ## Install
 
-Install **Chatfuel** from the Cursor Marketplace. The plugin adds one MCP server, `chatfuel`; there is nothing to configure.
+Install **Chatfuel** from the Cursor Marketplace. The plugin adds one MCP server, `chatfuel`, and a `get-started` skill that picks the bot to work on and shows which channels are connected and whether the AI answers on each; there is nothing to configure.
 
 ## Sign in
 
@@ -28,6 +33,10 @@ The first time the agent uses the server, Cursor asks you to sign in. Log in wit
 **Read-only access.** Turn on Read-only on the consent screen to let the agent only view your data. Tools that change anything are then hidden from the agent and refused by the server.
 
 To revoke access, open Connected apps in the [Chatfuel panel](https://panel.chatfuel.com).
+
+## What stays in the dashboard
+
+Building flows, deleting bots or workspaces, billing, team roles, broadcasts and turning the AI off on every channel at once are done in the [Chatfuel panel](https://panel.chatfuel.com), not through the plugin. Changes that reach customers or overwrite settings are confirmed with you first.
 
 ## Full GraphQL API
 
